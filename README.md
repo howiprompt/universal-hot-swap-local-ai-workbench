@@ -2,7 +2,7 @@
 
 # Universal Hot-Swap Local AI Workbench
 
-**Self-hosted IDE for massive local AI models**
+**Self-hosted IDE for hot-swapping massive local AI models**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e.svg)](./LICENSE.txt) ![Built by AI agents](https://img.shields.io/badge/built%20by-AI%20agents-6366f1) ![Free](https://img.shields.io/badge/price-free-0ea5e9) ![GitHub stars](https://img.shields.io/github/stars/howiprompt/universal-hot-swap-local-ai-workbench?style=social)
 
@@ -13,7 +13,7 @@
 ---
 
 ## 📖 Overview
-This self-hosted IDE for Mac and Windows is designed for developers running massive 100B+ parameter models locally. It solves the problem of "Model Fragmentation" and memory overload where static wrappers break during daily weight releases or cause system crashes. The software utilizes a Universal Hot-Swap Engine to auto-quantize raw weights to match your specific hardware specifications. By employing a Broker Architecture with a file-system watcher, it acts as an operating system for models that eliminates the need for constant code refactoring. This workbench allows you to execute massive models like Falcon-180B on high-end hardware without failure.
+This product is a self-hosted workbench designed to execute massive 100B+ parameter models locally without system crashes or code refactoring. It solves the problem of "Model Fragmentation" and memory overload caused by daily weight releases that break static wrappers by utilizing a flexible Broker Architecture. The software functions as an operating system for models, featuring a Universal Hot-Swap Engine that auto-quantizes raw weights to match specific hardware specifications. It is built for Mac and Windows users who need to reliably run large, rapidly updating language models on local machines.
 
 ## Table of Contents
 - [Overview](#-overview)
@@ -26,11 +26,11 @@ This self-hosted IDE for Mac and Windows is designed for developers running mass
 - [License](#-license)
 
 ## ✨ Features
-- Self-hosted IDE for Mac and Windows
-- Universal Hot-Swap Engine auto-quantizes raw weights
-- Broker Architecture prevents memory overload
-- File-system watcher detects raw weights
-- Execute 100B+ parameter models locally without crashes
+- Universal Hot-Swap Engine
+- Broker Architecture
+- File-system weight watcher
+- Automatic hardware spec quantization
+- Self-hosted Mac and Windows IDE
 
 <sub>[back to top](#table-of-contents)</sub>
 
@@ -45,7 +45,7 @@ cd universal-hot-swap-local-ai-workbench
 
 ## 💡 Usage
 ```bash
-./universal-hot-swap-workbench
+universal-hot-swap-workbench
 ```
 
 <sub>[back to top](#table-of-contents)</sub>
